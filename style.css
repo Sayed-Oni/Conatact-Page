@@ -1,0 +1,141 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Start */
+
+.container-contact {
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(img/bg-01.jpg);
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+.wrap-contact {
+  position: relative;
+  max-width: 960px;
+  justify-content: center;
+  background: #fff;
+  border-radius: 2px;
+  padding: 66px 115px 59px 115px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form-title {
+  font-family: "Raleway", sans-serif;
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  color: #333333;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 32px;
+}
+
+.form-group {
+  width: 100%;
+  position: relative;
+  background-color: transparent;
+  margin-bottom: 35px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.form-conto {
+  height: 62px;
+  display: block;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #686868;
+  line-height: 1.2;
+  padding: 0 28px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  min-height: 162px;
+  padding-top: 19px;
+  padding-bottom: 13px;
+  line-height: 1.2;
+}
+.form-cont {
+  height: 62px;
+  display: block;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #686868;
+  line-height: 1.2;
+  padding: 30px;
+  border: none;
+  outline: none;
+}
+
+/* Gradient Button Start */
+
+.btn-grad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 62px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 2px;
+  display: block;
+  border: none;
+  outline: none;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #0dd4ee 0%,
+    #12e061 51%,
+    #0da8e6 100%
+  );
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-more {
+  display: block;
+  max-width: 960px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.4;
+  text-align: center;
+  padding: 40px 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
